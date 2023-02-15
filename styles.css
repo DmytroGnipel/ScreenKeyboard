@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 15% 20%;
+    gap: 3px;
+}
+
+#table {
+    background-color: aquamarine;
+    padding: 2px; 
+    border: 2px solid black;
+}
+
+.row {
+    display: flex;
+    gap: 1px;
+}
+
+button {
+    flex: 1;
+}
+
+.capslock, .backspace {
+    flex: 3; 
+    background-color: aquamarine;
+}
